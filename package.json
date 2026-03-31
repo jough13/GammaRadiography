@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "npx http-server public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +19,7 @@
     "url": "https://github.com/jough13/GammaRadiography/issues"
   },
   "homepage": "https://github.com/jough13/GammaRadiography#readme",
-  "dependencies": {
-    "express": "^5.2.1",
-    "sqlite3": "^6.0.1"
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
